@@ -1,0 +1,37 @@
+<!--
+   // 1 - Adicionar estrutura - H1, spans, div, button
+   // Adicionar a fonte
+   // 2 - Estilizar com css
+   // 3 - Adicionar imagens geradas pelo midjourney
+   // 4 - Adicionar flip css / js
+   // 5 - Start Game Function - Randomizar os cards
+   // para fazer posições aleatórias
+-->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Memory Game</title>
+    <link href="./index.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body onload="setupGame()">
+    <main>
+      <h1 class="titulo">Memory Game</h1>
+      <div class="info">
+        <h4>Movimentos restantes:</h4>
+        <h4>Timer:</h4>
+      </div>
+      <div class="cards"></div>
+      <button class="start">START</button>
+    </main>
+    <script src="./index.js"></script>
+  </body>
+</html>
